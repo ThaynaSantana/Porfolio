@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 body{
     font-family: 'Montserrat', Arial, sans-serif;
 }
@@ -130,4 +131,32 @@ footer {
 
 .icons-programming {
     height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+}
+
+.experience p {
+    font-size: 1.3rem;
+}
+
+.experience img {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 10px 24px -3px,#D6D6E7 0 -3px 0 inset;;
 }
