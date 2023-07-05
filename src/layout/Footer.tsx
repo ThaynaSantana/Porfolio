@@ -11,7 +11,7 @@ const Footer = () => {
                 <img className="icons-programming" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"></img>
                 <img className="icons-programming" src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_960_720.png"></img>
             </div>
-            <p>Desenvolvido por Thayna Santana <a href="https://www.github.com/thaynasantana">Github</a></p>
+            <p>Desenvolvido por Thayna Santana <a className="link" href="https://www.github.com/thaynasantana">Github</a></p>
         </footer>
     )
 }

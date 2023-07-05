@@ -12,7 +12,6 @@ const Certificate = ({ name, href }: CertificateProps ) => {
             <object data={href} type="application/pdf">
                 <p>Seu navegador não tem suporte para visualizar PDF</p>
             </object>
-            <button>Veja mais</button>
         </div>
     )
 }

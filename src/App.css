@@ -111,6 +111,14 @@ object{
     text-align: center;
 }
 
+.certificate-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
 .objects button{
     width: 15rem;
 }
@@ -159,4 +167,19 @@ a:-webkit-any-link {
 
 .experience img {
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 10px 24px -3px,#D6D6E7 0 -3px 0 inset;;
+}
+
+.link {
+    color: rgb(26, 160, 223);
+    text-decoration: underline;
+}
+
+.link:-webkit-any-link {
+    text-decoration: underline;
+    color: rgb(37, 205, 211);
+}
+
+.orange {
+    color: orangered;
+    font-weight: bold;
 }

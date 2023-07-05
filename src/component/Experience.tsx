@@ -35,7 +35,7 @@ const Experience = () => {
             <p>
             Com a combinação poderosa das tecnologias JavaScript, HTML e CSS, o World Text Editor oferece uma experiência completa de edição de texto, com recursos avançados e uma interface amigável. Descubra todo o potencial desse projeto e crie documentos incríveis de maneira rápida e fácil. 
             </p>
-            <p>Source Code: <a href="https://github.com/ThaynaSantana/World-Text-Editor">https://github.com/ThaynaSantana/World-Text-Editor</a></p>
+            <p>Source Code: <a className="link" target="_blank" href="https://github.com/ThaynaSantana/World-Text-Editor">https://github.com/ThaynaSantana/World-Text-Editor</a></p>
         </div>
     )
 }
