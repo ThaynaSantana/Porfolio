@@ -2,7 +2,7 @@ import Certificate from '../component/Certificate'
 
 const Certificates = () => {
     return(
-        <main>
+        <main id="certificates">
             <Certificate name={'Curso de Extensao - Programaçao Python UNIFACS'} href={'/certificados/certificado_20230613220432.pdf'}  />
             <div className="certificate-button">
             <Certificate name={'Google - Technical Support Fundamentals'} href={'/certificados/Coursera ELN4HMHZHRKN.pdf'}  />

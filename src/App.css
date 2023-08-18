@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Montserrat', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 4rem;
+    margin: 2rem;
+}
+
+nav ul h1 {
+    font-size: 4rem;
+}
+
+nav button {
+    border-radius: 30rem;
+}
+
+
+ul img {
+    height: 10vh;
+}
+
+h2 {
+    margin-top: 1.5rem;
 }
 
 button {
@@ -72,6 +103,17 @@ section{
     width: 50%;
 }
 
+#office {
+    margin: 1.2rem 0;
+}
+
+.socialmedias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
 .socialmedias h3{
     font-weight: 500;
     display: flex;
@@ -88,6 +130,7 @@ section{
     display: flex;
     flex-direction: column;
     padding: 5rem 2rem;
+    gap: 2rem;
 }
 
 .photo-perfil{
@@ -105,11 +148,17 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 45vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 2rem;
     padding: 5rem;
+}
+
+#certificates {
+    padding: 4rem;
+    height: 100%;
 }
 
 object{
@@ -196,4 +245,64 @@ a:-webkit-any-link {
 .orange {
     color: orangered;
     font-weight: bold;
+}
+
+.dark {
+    background-color: #36395A;
+    color:#FCFCFD
+}
+
+.light {
+    background-color: #ffffff;
+    color: black;
+}
+
+.banner {
+    width: 25rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Adjust padding and margins for smaller screens */
+    section {
+        padding: 1rem;
+    }
+
+    /* Make biography full width on small screens */
+    .biograph {
+        width: 100%;
+    }
+
+    /* Stack social media icons vertically on small screens */
+    .socialmedias h3 {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 2rem; /* Add some spacing between icons */
+    }
+
+    /* Center align profile photo on small screens */
+    .photo-perfil {
+        margin: 2rem auto;
+    }
+
+    /* Adjust experience section for smaller screens */
+    .experience {
+        margin: 2rem;
+    }
+
+    /* Make experience images full width on small screens */
+    .experience img {
+        width: 100%;
+    }
+
+    /* Adjust button styles for better touch interaction */
+    button {
+        font-size: 16px;
+        padding: 0.5rem 1rem;
+    }
 }
