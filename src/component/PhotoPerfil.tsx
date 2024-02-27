@@ -1,4 +1,4 @@
-import img from "../assets/selfie.png"
+import img from "../assets/selfie2.png"
 
 const PhotoPerfil = () => {
     return (
